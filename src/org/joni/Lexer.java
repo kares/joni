@@ -490,7 +490,7 @@ class Lexer extends ScannerSupport {
         int to = this.stop;
 
         boolean inEsc = false;
-        int i=0;
+        int i;
         while(p < to) {
             if (inEsc) {
                 inEsc = false;
